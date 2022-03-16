@@ -18,14 +18,6 @@
 		"https://github.com/fregante/browser-extension-template/*",
 		"storage"
 	],
-	"content_scripts": [ 
-		{
-			"matches": [ "https://github.com/fregante/browser-extension-template/*" ],
-			"js": [ "content.js" ],
-			"css": [ "content.css" ],
-			"run_at": "document_end"
-		}
- 	],
 	"options_ui": {
 		"chrome_style": true,
 		"page": "options.html"
